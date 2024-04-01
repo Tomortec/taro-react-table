@@ -79,10 +79,10 @@ function Title(props: TitleProps) {
             columns,
             colWidth,
           }),
-        ...column.titleStyle,
-        ...titleStyle,
         width: titleWidth,
         padding: `${getSize(0)} ${getSize(getNumberSize(size))}`,
+        ...column.titleStyle,
+        ...titleStyle,
       }}
       key={column.key || column.dataIndex}
     >
